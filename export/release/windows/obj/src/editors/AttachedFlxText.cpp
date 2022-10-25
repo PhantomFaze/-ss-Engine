@@ -19,8 +19,8 @@
 #include <flixel/util/IFlxDestroyable.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d4db2ac25d8e506a_3063_new,"editors.AttachedFlxText","new",0x7b9cbf45,"editors.AttachedFlxText.new","editors/ChartingState.hx",3063,0x5a24859a)
-HX_LOCAL_STACK_FRAME(_hx_pos_d4db2ac25d8e506a_3074_update,"editors.AttachedFlxText","update",0x30e33444,"editors.AttachedFlxText.update","editors/ChartingState.hx",3074,0x5a24859a)
+HX_DEFINE_STACK_FRAME(_hx_pos_d4db2ac25d8e506a_3064_new,"editors.AttachedFlxText","new",0x7b9cbf45,"editors.AttachedFlxText.new","editors/ChartingState.hx",3064,0x5a24859a)
+HX_LOCAL_STACK_FRAME(_hx_pos_d4db2ac25d8e506a_3075_update,"editors.AttachedFlxText","update",0x30e33444,"editors.AttachedFlxText.update","editors/ChartingState.hx",3075,0x5a24859a)
 namespace editors{
 
 void AttachedFlxText_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Float >  __o_Y,::hx::Null< Float >  __o_FieldWidth,::String Text,::hx::Null< int >  __o_Size,::hx::Null< bool >  __o_EmbeddedFont){
@@ -29,10 +29,10 @@ void AttachedFlxText_obj::__construct(::hx::Null< Float >  __o_X,::hx::Null< Flo
             		Float FieldWidth = __o_FieldWidth.Default(0);
             		int Size = __o_Size.Default(8);
             		bool EmbeddedFont = __o_EmbeddedFont.Default(true);
-            	HX_STACKFRAME(&_hx_pos_d4db2ac25d8e506a_3063_new)
-HXLINE(3067)		this->yAdd = ((Float)0);
-HXLINE(3066)		this->xAdd = ((Float)0);
-HXLINE(3070)		super::__construct(X,Y,FieldWidth,Text,Size,EmbeddedFont);
+            	HX_STACKFRAME(&_hx_pos_d4db2ac25d8e506a_3064_new)
+HXLINE(3068)		this->yAdd = ((Float)0);
+HXLINE(3067)		this->xAdd = ((Float)0);
+HXLINE(3071)		super::__construct(X,Y,FieldWidth,Text,Size,EmbeddedFont);
             	}
 
 Dynamic AttachedFlxText_obj::__CreateEmpty() { return new AttachedFlxText_obj; }
@@ -63,12 +63,12 @@ bool AttachedFlxText_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void AttachedFlxText_obj::update(Float elapsed){
-            	HX_STACKFRAME(&_hx_pos_d4db2ac25d8e506a_3074_update)
-HXLINE(3075)		this->super::update(elapsed);
-HXLINE(3077)		if (::hx::IsNotNull( this->sprTracker )) {
-HXLINE(3078)			this->setPosition((this->sprTracker->x + this->xAdd),(this->sprTracker->y + this->yAdd));
-HXLINE(3079)			this->set_angle(this->sprTracker->angle);
-HXLINE(3080)			this->set_alpha(this->sprTracker->alpha);
+            	HX_STACKFRAME(&_hx_pos_d4db2ac25d8e506a_3075_update)
+HXLINE(3076)		this->super::update(elapsed);
+HXLINE(3078)		if (::hx::IsNotNull( this->sprTracker )) {
+HXLINE(3079)			this->setPosition((this->sprTracker->x + this->xAdd),(this->sprTracker->y + this->yAdd));
+HXLINE(3080)			this->set_angle(this->sprTracker->angle);
+HXLINE(3081)			this->set_alpha(this->sprTracker->alpha);
             		}
             	}
 

@@ -3773,6 +3773,10 @@ class PlayState extends MusicBeatState
 			case 'BG Freaks Expression':
 				if(bgGirls != null) bgGirls.swapDanceType();
 
+			case 'Position Jump':
+				startOnTime = val1;
+				PauseSubState.restartSong(true);
+
 			case 'Change Scroll Speed':
 				if (songSpeedType == "constant")
 					return;
