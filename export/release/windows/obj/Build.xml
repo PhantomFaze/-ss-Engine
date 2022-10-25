@@ -12433,6 +12433,7 @@
    <depend name="include/flixel/system/frontEnds/SoundFrontEnd.h"/>
    <depend name="include/flixel/tweens/FlxEase.h"/>
    <depend name="include/flixel/tweens/FlxTween.h"/>
+   <depend name="include/flixel/tweens/misc/AngleTween.h"/>
    <depend name="include/flixel/tweens/misc/NumTween.h"/>
    <depend name="include/flixel/tweens/misc/VarTween.h"/>
    <depend name="include/flixel/util/FlxAxes.h"/>
