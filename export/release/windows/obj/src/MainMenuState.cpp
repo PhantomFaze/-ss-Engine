@@ -64,9 +64,6 @@
 #ifndef INCLUDED_WeekData
 #include <WeekData.h>
 #endif
-#ifndef INCLUDED_editors_MasterEditorMenu
-#include <editors/MasterEditorMenu.h>
-#endif
 #ifndef INCLUDED_flixel_FlxBasic
 #include <flixel/FlxBasic.h>
 #endif
@@ -124,12 +121,6 @@
 #ifndef INCLUDED_flixel_group_FlxTypedSpriteGroup
 #include <flixel/group/FlxTypedSpriteGroup.h>
 #endif
-#ifndef INCLUDED_flixel_input_FlxKeyManager
-#include <flixel/input/FlxKeyManager.h>
-#endif
-#ifndef INCLUDED_flixel_input_IFlxInputManager
-#include <flixel/input/IFlxInputManager.h>
-#endif
 #ifndef INCLUDED_flixel_input_actions_FlxAction
 #include <flixel/input/actions/FlxAction.h>
 #endif
@@ -138,9 +129,6 @@
 #endif
 #ifndef INCLUDED_flixel_input_actions_FlxActionSet
 #include <flixel/input/actions/FlxActionSet.h>
-#endif
-#ifndef INCLUDED_flixel_input_keyboard_FlxKeyboard
-#include <flixel/input/keyboard/FlxKeyboard.h>
 #endif
 #ifndef INCLUDED_flixel_math_FlxPoint
 #include <flixel/math/FlxPoint.h>
@@ -645,12 +633,6 @@ HXLINE( 216)					if (::ClientPrefs_obj::flashing) {
 HXLINE( 216)						::flixel::effects::FlxFlicker_obj::flicker(this->magenta,((Float)1.1),((Float)0.15),false,null(),null(),null());
             					}
 HXLINE( 218)					this->menuItems->forEach( ::Dynamic(new _hx_Closure_2(_gthis)),null());
-            				}
-            			}
-            			else {
-HXLINE( 259)				if (::flixel::FlxG_obj::keys->checkKeyArrayState(this->debugKeys,2)) {
-HXLINE( 261)					this->selectedSomethin = true;
-HXLINE( 262)					::MusicBeatState_obj::switchState( ::editors::MasterEditorMenu_obj::__alloc( HX_CTX ,null(),null()));
             				}
             			}
             		}

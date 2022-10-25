@@ -13649,7 +13649,6 @@
    <depend name="include/StoryMenuState.h"/>
    <depend name="include/TitleState.h"/>
    <depend name="include/WeekData.h"/>
-   <depend name="include/editors/MasterEditorMenu.h"/>
    <depend name="include/flixel/FlxBasic.h"/>
    <depend name="include/flixel/FlxCamera.h"/>
    <depend name="include/flixel/FlxCameraFollowStyle.h"/>
@@ -13669,12 +13668,9 @@
    <depend name="include/flixel/graphics/frames/FlxFramesCollection.h"/>
    <depend name="include/flixel/group/FlxTypedGroup.h"/>
    <depend name="include/flixel/group/FlxTypedSpriteGroup.h"/>
-   <depend name="include/flixel/input/FlxKeyManager.h"/>
-   <depend name="include/flixel/input/IFlxInputManager.h"/>
    <depend name="include/flixel/input/actions/FlxAction.h"/>
    <depend name="include/flixel/input/actions/FlxActionDigital.h"/>
    <depend name="include/flixel/input/actions/FlxActionSet.h"/>
-   <depend name="include/flixel/input/keyboard/FlxKeyboard.h"/>
    <depend name="include/flixel/math/FlxPoint.h"/>
    <depend name="include/flixel/system/FlxSound.h"/>
    <depend name="include/flixel/system/FlxSoundGroup.h"/>
