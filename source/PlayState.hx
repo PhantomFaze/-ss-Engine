@@ -3774,8 +3774,9 @@ class PlayState extends MusicBeatState
 				if(bgGirls != null) bgGirls.swapDanceType();
 
 			case 'Position Jump':
+				var val1:Int = Std.parseInt(value1);
 				startOnTime = val1;
-				PauseSubState.restartSong(true);
+				//PauseSubState.restartSong(true);
 
 			case 'Change Scroll Speed':
 				if (songSpeedType == "constant")

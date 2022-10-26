@@ -92,7 +92,7 @@ class ChartingState extends MusicBeatState
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
 		['Change Scroll Speed', "Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."],
 		['Set Property', "Value 1: Variable name\nValue 2: New value"],
-		['Position Jump', "Value 1: Jump Position (seconds or minute:seconds format. (reference) --> 02:34)"]
+		['Position Jump', "Value 1: Jump Position (seconds or minute:seconds \nformat. (reference) --> 02:34)"]
 	];
 
 	var _file:FileReference;

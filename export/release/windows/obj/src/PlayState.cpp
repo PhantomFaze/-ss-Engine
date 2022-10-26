@@ -7623,7 +7623,6 @@ HXLINE(3623)			goto _hx_goto_185;
             		if (  (_hx_switch_0==HX_("Position Jump",c5,2b,d7,bc)) ){
 HXLINE(3777)			int val1 = ( (int)(::Std_obj::parseInt(value1)) );
 HXLINE(3778)			::PlayState_obj::startOnTime = ( (Float)(val1) );
-HXLINE(3779)			::PauseSubState_obj::restartSong(true);
 HXLINE(3776)			goto _hx_goto_185;
             		}
             		if (  (_hx_switch_0==HX_("Screen Shake",12,bb,51,4b)) ){
